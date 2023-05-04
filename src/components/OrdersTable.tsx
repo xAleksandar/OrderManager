@@ -30,18 +30,6 @@ interface OrdersTableProps {
     updateResult: (action: string, id: number) => void;
   }
 
-// export const ordersTable = () => (
-//     orders: resultType[],
-//     page: number,
-//     rowsPerPage: number,
-//     hover: boolean,
-//     selectedOrderId: number,
-//     setHover: React.Dispatch<React.SetStateAction<boolean>>,
-//     setSelectedOrderId: React.Dispatch<React.SetStateAction<number | null>>,
-//     updateResult: (action: string, id: number) => void
-
-//     ) => {
-
 export const OrdersTable: React.FC<OrdersTableProps> = ({
     orders,
     page,
