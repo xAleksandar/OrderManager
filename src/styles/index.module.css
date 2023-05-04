@@ -1,0 +1,41 @@
+.Container {
+    background-color: #fff;
+    max-width: 80%;
+    margin: 10vh auto;
+}
+
+.SearchBar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.SearchForm {
+    max-width: 20vh;
+    padding: 10px;
+    margin: 5px 5px;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+
+.DatePickers {
+    display: flex;
+}
+
+.DatePicker {
+    width: 17vh;
+    padding: 0px 5px 0px 5px;
+}
+
+.RangeDatePicker {
+    width: 30vh;
+    padding: 0px 10px 0px 10px;
+}
+
+.PaymentPicker {
+    min-width: 17vh;
+    width: 17vh;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 5px 0px 0px;
+}

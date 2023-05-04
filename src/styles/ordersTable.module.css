@@ -1,0 +1,28 @@
+.ZeroResults {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.TableRow {
+    position: relative;
+}
+
+.TableRow:hover {
+    box-shadow: 2px 5px 15px #b6afb3;
+}
+
+.EditButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.DeleteBtn {
+    max-width: 4vh;
+    color: rgb(247, 97, 97);
+}
+
+.EditBtn {
+    color: #5476dd;
+    max-width: 4vh;
+}
